@@ -1,19 +1,7 @@
 /*
         Implementaion of Circular Queue Using Array
         
-        Name : Aman Antuley.
-        Roll No : 23CO25
-        Batch : 02
-
-
-        Theory :
-        A circular queue is a type of linear data structure where the last position is connected back to the first, forming a circle. This design allows for efficient use of space by ensuring that when the end of the queue is reached, the next element can be added at the beginning if there is available space. In a circular queue, elements are enqueued at the rear and dequeued from the front, with both pointers wrapping around when reaching the end of the array. Overflow occurs when the queue is full and an attempt to enqueue is made, while underflow happens if the queue is empty and a dequeue is attempted. This structure optimizes memory utilization and avoids the problem of wasted space in a regular linear queue.
-
-        Queue ADT : 
-          ADT : Abstract Data Type (Hidden Data type)
-         Data : Sequence of any specific type of Data.
-
-
+        
          Operations :
 
         1. Initialization of Queue: Set up the circular queue using a fixed-size array and initialize the `front` and `rear` pointers to manage the positions of the first and last elements.
