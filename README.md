@@ -1,135 +1,117 @@
-# DSA in C Programming 📚💻
+# 📘 DSA in C Programming
 
-Welcome to my **DSA in C Programming** repository! This repository contains fundamental and advanced **Data Structures and Algorithms (DSA)** implemented in **C**, showcasing efficient solutions for various computational problems.
-
----
-
-## 🗋 **Table of Contents**
-
-1. [About the Repository](#about-the-repository)  
-2. [Data Structures Implemented](#data-structures-implemented)  
-3. [Algorithms Included](#algorithms-included)  
-4. [Technologies Used](#technologies-used)  
-5. [Setup and Installation](#setup-and-installation)  
-6. [Contributing](#contributing)  
-7. [License](#license)  
-8. [Contact](#contact)  
+Welcome to my **DSA in C Programming** repository! This repository contains fundamental and advanced **Data Structures and Algorithms (DSA)** implemented in **C**, solving classic computational problems with clarity and efficiency.
 
 ---
 
-## 🖋 **About the Repository**
+## 🗂️ Table of Contents
 
-This repository includes a variety of **Data Structures** and **Algorithms**, implemented in **C programming language**. It aims to provide optimized and well-documented solutions for:
-- Common data structures like **Arrays, Stacks, Queues, Linked Lists, Trees, and Graphs**.
-- Popular algorithms such as **Sorting, Searching, Recursion, and Graph Traversal techniques**.
-
----
-
-## 📂 **Data Structures Implemented**
-
-- **Arrays**: Basic operations (insertion, deletion, traversal, searching, sorting).
-- **Stacks**: Implementation using arrays and linked lists, stack operations.
-- **Queues**: Circular queue, priority queue, and double-ended queue (Deque).
-- **Linked Lists**: Single, double, and circular linked lists.
-- **Trees**: Binary trees, binary search trees (BST), AVL trees.
-- **Graphs**: Adjacency matrix and adjacency list representations, BFS and DFS traversals.
+1. [About](#about)
+2. [Implemented Programs](#implemented-programs)
+3. [Technologies Used](#technologies-used)
+4. [Setup and Compilation](#setup-and-compilation)
+5. [Contribution Guidelines](#contribution-guidelines)
+6. [License](#license)
+7. [Contact](#contact)
 
 ---
 
-## ⚡ **Algorithms Included**
+## 🔍 About
 
-### **Sorting Algorithms**
-- Bubble Sort
-- Selection Sort
-- Insertion Sort
-- Merge Sort
-- Quick Sort
-- Heap Sort
+This repository includes a variety of DSA problems and solutions written in **C**. It contains clean implementations of:
 
-### **Searching Algorithms**
-- Linear Search
-- Binary Search (Iterative & Recursive)
+- **Sorting and Searching algorithms**
+- **Dynamic Programming problems**
+- **Stack and Queue data structures**
+- **Recursion and Backtracking**
+- **Greedy and brute-force techniques**
 
-### **Graph Algorithms**
-- Breadth-First Search (BFS)
-- Depth-First Search (DFS)
-- Dijkstra’s Algorithm (Shortest Path)
-- Floyd Warshall Algorithm
-
-### **Other Algorithms**
-- Recursion-based solutions
-- Dynamic Programming (Basic problems)
-- Backtracking (Sudoku Solver, N-Queens problem)
+Perfect for students, interview prep, and practice!
 
 ---
 
-## 💻 **Technologies Used**
+## 📂 Implemented Programs
 
-- **C Programming Language**: Primary language for all implementations.
-- **GCC Compiler**: Used for compiling and executing programs.
-- **File Handling**: Applied in some programs for data storage.
-- **Dynamic Memory Allocation**: Used in linked lists, trees, and graphs.
-
----
-
-## 🛠 **Setup and Installation**
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/amanantuley/DSA_C_Programming.git
-   ```
-
-2. Navigate to the project folder:
-   ```bash
-   cd DSA_C_Programming
-   ```
-
-3. Compile the desired C file:
-   ```bash
-   gcc <filename>.c -o <output-name>
-   ```
-
-4. Run the compiled program:
-   ```bash
-   ./<output-name>
-   ```
+| File Name                         | Description                              |
+|----------------------------------|------------------------------------------|
+| `Binary_Search.c`                | Binary search on sorted array            |
+| `Exp-07 (Dynamic_Programming).c` | DP problems (Knapsack, Subset Sum, etc.) |
+| `Exp-09 (N-Queen).c`             | Backtracking solution for N-Queens       |
+| `Implementation_of_Circular_Queue.c` | Circular queue operations            |
+| `Implementation_of_Queue.c`      | Linear queue implementation              |
+| `Implementation_of_linked_list.c`| Basic linked list operations             |
+| `Implementation_of_stack.c`      | Stack using arrays                       |
+| `Insertion_sort.c`               | Insertion sort algorithm                 |
+| `Knapsack.c`                     | 0/1 Knapsack Problem (DP)                |
+| `Naive_String_matching.c`        | Naive pattern matching                   |
+| `Quick_sort.c`                   | Quick sort implementation                |
+| `Selection_Sort.c`               | Selection sort algorithm                 |
+| `Sum_Of_Subset.c`                | Backtracking solution for subset sum     |
+| `infix_to_postfix.c`            | Stack-based infix to postfix conversion  |
 
 ---
 
-## 🤝 **Contributing**
+## 🛠️ Technologies Used
 
-Contributions are welcome! Follow these steps to contribute:
-1. Fork the repository.
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add feature-name"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a Pull Request.
+- **C Programming Language**
+- **GCC Compiler**
+- **VS Code / Code::Blocks** (for development)
+- **Command Line / Terminal**
 
 ---
 
-## 📚 **License**
+## 🧪 Setup and Compilation
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+### ✅ Compile and Run (Linux/macOS)
+```bash
+gcc filename.c -o output
+./output
+````
+
+### ✅ On Windows (CMD / PowerShell)
+
+```bash
+gcc filename.c -o output.exe
+output.exe
+```
+
+Example:
+
+```bash
+gcc Binary_Search.c -o Binary_Search
+./Binary_Search
+```
 
 ---
 
-## 📨 **Contact**
+## 🌱 Contribution Guidelines
 
-Connect with me through the following channels:
+Feel free to improve the code, add test cases, or include new algorithms.
 
-- **Developer**: Aman Antuley  
-- **Email**: [amanantuley3794@gmail.com](mailto:amanantuley3794@gmail.com)  
-- **GitHub**: [https://github.com/amanantuley](https://github.com/amanantuley)  
-- **LinkedIn**: [Aman Antuley](https://www.linkedin.com/in/aman-antuley-8974ab26a/)  
-- **Twitter**: [@amanantuley](https://twitter.com/amanantuley)  
+### Steps:
 
-Let’s collaborate and build efficient algorithms together! 🚀
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Open a Pull Request
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+---
+
+## 📬 Contact
+
+**Aman Antuley**
+📧 Email: [amanantuley3794@gmail.com](mailto:amanantuley3794@gmail.com)
+🔗 GitHub: [@amanantuley](https://github.com/amanantuley)
+💼 LinkedIn: [Aman Antuley](https://linkedin.com/in/aman-antuley-8974ab26a)
+🐦 Twitter: [@amanantuley](https://twitter.com/amanantuley)
+
+---
+
+**Star** ⭐ this repo if you find it helpful, and let’s build more awesome DSA solutions together! 🚀
+
